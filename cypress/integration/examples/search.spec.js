@@ -8,7 +8,7 @@ describe('Search Item', () => {
         cy.get('.search-field').type('shoes')
         cy.get('.woocommerce-product-search > button').click()
         cy.get('.astra-shop-thumbnail-wrap').should('have.length',5)
-        cy.get('.astra-shop-thumbnail-wrap').find('.onsale').should('have.length', 3)
+        cy.get('.astra-shop-thumbnail-wrap').find('.onsale').should('have.length', 2)
 
     })
 })
