@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cy:open": "cypress open",
     "cy:run-dashboard": "cypress run --record --key 6c7d5647-c3c1-413d-860c-0ffe52333444"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^5.5.0"
+    "cypress": "^6.5.0"
   }
 }
